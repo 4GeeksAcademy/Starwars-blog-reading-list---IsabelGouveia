@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import { Context } from "../store/appContext";
 
 
-export const vehicleDetails = () => {
+export const VehicleDetails = () => {
   const { store, actions } = useContext(Context);
   const { id } = useParams();
 
